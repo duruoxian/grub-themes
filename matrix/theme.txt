@@ -1,0 +1,32 @@
+# MATRIX 黑客帝国 — GRUB2 theme (generated)
+# Designed for 2560x1440. Set: GRUB_GFXMODE=2560x1440,1920x1080,auto
+desktop-image: "bg.png"
+desktop-color: "#000100"
+terminal-font: "MXSmall Regular 18"
+title-text: ""
+
++ boot_menu {
+  left = 650
+  top = 430
+  width = 1260
+  height = 420
+  menu_pixmap_style = "panel_*.png"
+  item_font = "MXItem Regular 30"
+  item_color = "#78cd8c"
+  selected_item_color = "#d6ffde"
+  item_height = 62
+  item_padding = 16
+  item_spacing = 18
+  selected_item_pixmap_style = "hl_*.png"
+}
+
++ label {
+  id = "__timeout__"
+  text = "AUTOBOOT IN %d"
+  left = 0
+  top = 924
+  width = 100%
+  align = center
+  font = "MXFooter Regular 22"
+  color = "#78ff96"
+}
